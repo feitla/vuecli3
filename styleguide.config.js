@@ -8,6 +8,21 @@ module.exports = {
 		url: 'https://vue-styleguidist.github.io/Examples.html'
 	},
 	styleguideDir: 'dist',
+	template: {
+    head: {
+      links: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro'
+        }
+      ]
+    }
+  },
+	theme: {
+    fontFamily: {
+      base: '"Source Sans Pro", "helvetica neue", helvetica, sans-serif'
+    }
+  }
 	// sections: [
 	//   {
 	//     name: 'First Section',
